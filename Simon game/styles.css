@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+#level-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #fef2bf;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+  /* text-align: center;
+  vertical-align: middle; */
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  /* border: 10px solid black; */
+  border-radius: 20%;
+  box-shadow: ;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  border: 7px solid #850505;
+  box-shadow: 10px 10px 8px #00060d;
+}
+
+.red:hover {
+  box-shadow: 5px 5px 8px #00060d inset;
+}
+
+.green {
+  background-color: green;
+  border: 7px solid #006400;
+  box-shadow: 10px 10px 8px #00060d;
+}
+
+.green:hover {
+  box-shadow: 5px 5px 8px #00060d inset;
+}
+
+.blue {
+  background-color: blue;
+  border: 7px solid #000080;
+  box-shadow: 10px 10px 8px #00060d;
+}
+
+.blue:hover {
+  box-shadow: 5px 5px 8px #00060d inset;
+}
+
+.yellow {
+  background-color: yellow;
+  border: 7px solid #e1ad01;
+  box-shadow: 10px 10px 8px #00060d;
+}
+
+.yellow:hover {
+  box-shadow: 5px 5px 8px #00060d inset;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.blink {
+  animation-name: btnBlink;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes btnBlink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
